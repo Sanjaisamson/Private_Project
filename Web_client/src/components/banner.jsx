@@ -94,7 +94,7 @@ export const Banner = () => {
         <div className='banner-contents'>
             <div className='banner-heading-group'>
         <div className='head-1'>
-            <h3>We are here to fulfill your dreams</h3>
+            <h5>"We are here to fulfill your dreams"</h5>
         </div>
         <div className='head-2'>
             <h1>AlKhamisi International Investment</h1>
