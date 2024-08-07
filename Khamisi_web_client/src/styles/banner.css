@@ -1,11 +1,10 @@
 .banner-container{
     width:100%;
     height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1429667947446-3c93a979b7e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8");
+    background-image: url("https://img.freepik.com/free-photo/low-angle-greyscale-shot-airplane-flying-high-rise-buildings_181624-18257.jpg?t=st=1723053507~exp=1723057107~hmac=1380bdcdea8473e69f7cafd18ef0637d08e4ceae3aaa0a3fff2c20807e990310&w=996");
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
     background-size: cover;
-    padding-bottom: 17%;
     /* border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%; */
 }
@@ -13,15 +12,21 @@
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-bottom: 17%;
+
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    backdrop-filter: blur(0) saturate(15%);
+    -webkit-backdrop-filter: blur(0) saturate(15%);
+    background-color: #070505aa;
+    position: relative;
 }
 .banner-heading-group{
     text-align: center;
     /* margin-bottom: 200px; */
 }
 .head-1{
-    color: #00f7ff;
+    color: #070707;
     text-transform: uppercase;
     font-size: 26px;
     margin-bottom: 5px;
@@ -32,6 +37,11 @@
     font-family: "Josefin Sans", sans-serif;
     font-size: 52px;
     font-weight: normal;
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 .sub-head{
     color: white;

@@ -19,9 +19,12 @@
 
 .about-image img{
   width: 95%;
+  border-radius: 20px;
 
 }
 .about-text{
-  width: 90%;
+  width: 80%;
+  padding: 10px;
   text-align: justify;
+  border-radius: 20px;
 }

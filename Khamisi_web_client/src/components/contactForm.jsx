@@ -1,13 +1,14 @@
 
 import '../styles/contactForm.css'
 
-import { Facebook, Home, Instagram, Linkedin, Mail, Phone} from 'lucide-react';
+import { Facebook, Home, Instagram, Linkedin, Mail, Phone, LocateIcon} from 'lucide-react';
 
 export const ContactForm = () => {
 
     return (
-        <div className='contact-wrapper'>
-            <div className='team-header'>
+        <div className='contact-section'>
+            <div className='contact-section-wrapper'>
+            <div className='contact-header'>
           <h3 style={{color: "white", fontFamily: "sans-serif", fontSize: 50}}>Need Help? Feel Free to Ask</h3>
         </div>
         <div className="contact-form-container">
@@ -15,49 +16,64 @@ export const ContactForm = () => {
         <form action="https://submit-form.com/6Wuu43TIY">
             <div className='form-components'>
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name" required={true} style={{width:300,height:30,border:1, borderRadius:10}} />
+            <input type="text" id="name" name="name" placeholder="Name" required={true} style={{width:300,height:30,border:1}} />
             </div>
             <div className='form-components'>
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" required={true} style={{width:300,height:30,border:1, borderRadius:10}} />
+            <input type="email" id="email" name="email" placeholder="Email" required={true} style={{width:300,height:30,border:1}} />
             </div>
             <div className='form-components'>
             <label htmlFor="message">Message</label>
             <textarea
                 id="message"
                 name="message"
-                placeholder="Message"
                 required={true}
                 style={{width:300,height:80,border:1, borderRadius:10}}
             ></textarea>
             </div>
             <div className='form-components'>
-            <button type="submit" style={{width:250,height:30}}>Send</button>
+            <button type="submit" style={{width:250,height:30, borderRadius:10}}>Send</button>
             </div>
         </form>
         </div>
-        <div className='contact-others'>
-            <div className='contact-details-group'>
-            <div className='contact-email-details'>
-                <h1>Contact</h1>
-                <div className='contact-details-items'>
-                <Mail color='white' style={{width:50}}/>
-                <a style={{margin:10, textDecoration:'none', color:'white'}} href="mail:sanjaisamson3225@gmail.com">pradeepthampi@gmail.com</a>
-                </div>
-                <div className='contact-details-items'>
-                <Phone color='white' style={{width:50}}/>
-                <a style={{margin:10,textDecoration:'none', color:'white'}} href='tel:+91 9400390752'>968 92165009</a>
-                </div>
+        <div className='contact-details'>
+        <div className='address-section'>
+        <div className='section-headers'>
+            <LocateIcon color='white' style={{width:50}}/>
+            <h3>
+                Address
+            </h3>
             </div>
-            <div className='contact-location-details'>
-                <h1>Based on</h1>
-                <div className='contact-details-items'>
-                <Home color='white' style={{width:50,margin:0, padding:0}}/>
-                <p>Al Khuwair/Bousher/Muscat Governorate</p>
-                </div>
+            <p>
+                Al-Khamisi International Investment Group
+            </p>
+            <p>
+                Al Khuwair/Bousher/Muscat Governorate
+            </p>
+        </div>
+        <div className='phone-section'>
+        <div className='section-headers'>
+            <Phone color='white' style={{width:50}}/>
+            <h3>
+                Call Us
+            </h3>
             </div>
+            <p>
+                968 92165009
+            </p>
+        </div>
+        <div className='email-section'>
+            <div className='section-headers'>
+            <Mail color='white' style={{width:50}}/>
+            <h3>
+                Email
+            </h3>
             </div>
-            <div className='contact-icons-group'>
+            <p>
+                info@khamisiInternational.com
+            </p>
+        </div>
+        <div className='contact-icons-group'>
             <div className="contact-icons">
                 <a href="https://www.instagram.com/sanjai__samson?igsh=YmtzNGpueXdvd2Fz" target="_blank">
                 <Instagram color='white' style={{width:50}}/>
@@ -79,6 +95,8 @@ export const ContactForm = () => {
                 </a>
             </div>
             </div>
+
+        </div>
         </div>
         </div>
         </div>
