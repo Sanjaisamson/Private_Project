@@ -2063,6 +2063,14 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+/* Key points (aboutus) */
+.key{
+text-align: justify;
+}
+
+/* Services description home page */
+.servicedes{
+  text-align: justify;
+  font-size: large;
 }
