@@ -1,10 +1,4 @@
-/**
-* Template Name: OnePage
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # Font & Color Variables
@@ -738,7 +732,7 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
-  background-image: url("https://images.pexels.com/photos/3646913/pexels-photo-3646913.jpeg?cs=srgb&dl=pexels-frankfurtpictures-3646913.jpg&fm=jpg");
+  /* background-image: url("../img/servicebanner.png"); */
   /* background-color: var(--background-color); */
   background-repeat: no-repeat;
     background-position: center; /* Center the image */
@@ -748,6 +742,9 @@ h6 {
   position: relative;
 
 }
+
+
+
 /* .page-bg-container {
   z-index: 3;
   backdrop-filter: blur(0) saturate(15%);
@@ -758,13 +755,13 @@ h6 {
 
 .page-title h1 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 10px;
   text-shadow: 
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #fff,
+    2px -1px 0 #ffffffb8,
+    -1px 2px 0 #ffffffb8,
+    1px 1px 0 #ffffff;
 }
 
 .page-title .breadcrumbs ol {
@@ -2073,4 +2070,9 @@ text-align: justify;
 .servicedes{
   text-align: justify;
   font-size: large;
+}
+
+/* Services heading */
+.servicehead{
+  color: #0d5183;
 }
