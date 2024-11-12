@@ -55,6 +55,8 @@
                         <li><i class="bi bi-check-circle"></i> <span>Food Trade: Expert import, export, and distribution services across the GCC.</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Education: IT training and support to boost skills and infrastructure.</span></li>
                     </ul>
+                    <h4>Get in touch with us:</h4>
+                    <p style="text-align: justify;">hr@alkhamisiintl.com</p>
                 </div>
 
 <!-- Application Form Section -->

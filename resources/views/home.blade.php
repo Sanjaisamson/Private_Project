@@ -35,7 +35,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>About Us<br></h2>
-                <p>Welcome to Al-Khamisi International Investments, where versatility meets excellence.</p>
+                <p>Welcome to Al-Khamisi International Investments SPC, where versatility meets excellence.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -50,45 +50,36 @@
                         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
                             <!-- <h3>Welcome to Al-Khamisi International Investments, where versatility meets excellence.</h3> -->
                             <p class="fst-italic" style="text-align: justify;">
-                                AlKhamisi International Investments is a multifaceted service company committed to
-                                delivering
-                                exceptional solutions across
-                                various industries.
-                                With a strong foundation in Construction, we manage diverse projects with a focus on quality
-                                and
-                                precision,
-                                ensuring that each development meets the highest standards. Our Real Estate services excel
-                                in
-                                facilitating seamless
-                                transactions, connecting clients with landowners through our trusted brokerage network.
+                            AlKhamisi International Investments is a multifaceted service company committed to delivering exceptional solutions across various industries. 
+                            we manage diverse projects with a focus on quality and precision, ensuring that each development meets the highest standards. 
+                            We have a strong foundation in following Services:
                             </p>
                             <ul>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>Innovation:</strong>
-                                        Embracing new technologies and trends to stay ahead in the market.</span></li>
+                                        class="fst-italic"><strong>Construction of Buildings</strong></span></li>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>Reliability:</strong>
-                                        Consistently delivering on our promises and ensuring customer satisfaction across
-                                        all
-                                        sectors.</span></li>
+                                        class="fst-italic"><strong>IT Services</strong></span></li>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>Excellence:</strong>
-                                        Pushing boundaries to achieve outstanding results in every project and service we
-                                        undertake.</span>
+                                        class="fst-italic"><strong>Management offices</strong></span>
                                 </li>
                             </ul>
                             <p class="fst-italic" style="text-align: justify;">
-                                In the field of IT Services, we offer cutting-edge IT training and support, empowering
-                                businesses to
-                                thrive in a digital landscape.
-                                Our commitment to excellence extends to managing culinary ventures in the Food Trade
-                                industry, where we
-                                set new standards and create
-                                lasting value for our clients and partners.
-                                At AlKhamisi International Investments, these core values guide our approach to business and
-                                ensure our
-                                continued success.
-                        </div>
+                            We are moving to show our excellence in following sectors soon:
+                            </p>
+                            <ul>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span
+                                        class="fst-italic"><strong>Education</strong></span></li>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span
+                                        class="fst-italic"><strong>Real Estate</strong></span></li>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span
+                                        class="fst-italic"><strong>Food Trade</strong></span>
+                                </li>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span
+                                        class="fst-italic"><strong>Tourism</strong></span>
+                                </li>
+                            </ul>
+                            <p class="fst-italic" style="text-align: justify;">
+                                At AlKhamisi International Investments SPC, We are Embracing new technologies and trends to stay ahead in the market, Consistently delivering on our promises and ensuring customer satisfaction across all sectors and Pushing boundaries to achieve outstanding results in every project and service we undertake. 
                     </div>
 
                 </div>
@@ -156,51 +147,7 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-item item-cyan position-relative">
-                            <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
-                                    </path>
-                                </svg>
-                                <i class="bi bi-pc-display"></i>
-                            </div>
-                            <a href="/itsupport" class="stretched-link">
-                                <h3>IT Services</h3>
-                            </a>
-                            <p class="servicedes">Offering comprehensive IT solutions, our services include expert training
-                                programs,
-                                custom software development,
-                                and reliable hardware and software supply.
-                                We empower businesses with the tools and knowledge needed to excel in a rapidly evolving
-                                digital
-                                landscape.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-item item-orange position-relative">
-                            <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
-                                    </path>
-                                </svg>
-                                <i class="bi bi-broadcast"></i>
-                            </div>
-                            <a href="/realestate" class="stretched-link">
-                                <h3>Real Estate</h3>
-                            </a>
-                            <p class="servicedes">We specialize in seamless real estate transactions across the GCC,
-                                connecting clients with landowners through trusted brokerage services.
-                                Our expertise spans property sales, development, and management, delivering premium spaces
-                                tailored to your needs with integrity and transparency.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item item-teal position-relative">
                             <div class="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600"
@@ -212,7 +159,7 @@
                                 <i class="bi bi-buildings-fill"></i>
                             </div>
                             <a href="/construction" class="stretched-link">
-                                <h3>Construction Services: Comprehensive MEP Solutions</h3>
+                                <h3>Construction Of Buildings: Comprehensive MEP Solutions</h3>
                             </a>
                             <p class="servicedes">With a strong focus on quality and efficiency, our construction services
                                 cover
@@ -222,6 +169,53 @@
                                 clients.</p>
                         </div>
                     </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item item-cyan position-relative">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-pc-display"></i>
+                            </div>
+                            <a href="/itsupport" class="stretched-link">
+                                <h3>IT Services And Management Offices</h3>
+                            </a>
+                            <p class="servicedes">Offering comprehensive IT solutions, our services include expert training
+                                programs,
+                                custom software development,
+                                and reliable hardware and software supply.
+                                We empower businesses with the tools and knowledge needed to excel in a rapidly evolving
+                                digital
+                                landscape.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-item item-pink position-relative">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-easel"></i>
+                            </div>
+                            <a href="/education" class="stretched-link">
+                                <h3>Education</h3>
+                            </a>
+                            <p class="servicedes">Boost your IT skills with Al-Khamisi’s expert-led training and support
+                                services.
+                                From programming to AI, our flexible courses and hands-on learning prepare you for
+                                real-world challenges,
+                                while our ongoing support ensures your IT infrastructure stays strong.</p>
+                            <a href="/education" class="stretched-link"></a>
+                        </div>
+                    </div><!-- End Service Item -->
+                    
 
                     {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item item-red position-relative">
@@ -295,28 +289,27 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-item item-pink position-relative">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item item-orange position-relative">
                             <div class="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                                        d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
                                     </path>
                                 </svg>
-                                <i class="bi bi-easel"></i>
+                                <i class="bi bi-broadcast"></i>
                             </div>
-                            <a href="/education" class="stretched-link">
-                                <h3>Education</h3>
+                            <a href="/realestate" class="stretched-link">
+                                <h3>Real Estate</h3>
                             </a>
-                            <p class="servicedes">Boost your IT skills with Al-Khamisi’s expert-led training and support
-                                services.
-                                From programming to AI, our flexible courses and hands-on learning prepare you for
-                                real-world challenges,
-                                while our ongoing support ensures your IT infrastructure stays strong.</p>
-                            <a href="/education" class="stretched-link"></a>
+                            <p class="servicedes">We specialize in seamless real estate transactions across the GCC,
+                                connecting clients with landowners through trusted brokerage services.
+                                Our expertise spans property sales, development, and management, delivering premium spaces
+                                tailored to your needs with integrity and transparency.</p>
                         </div>
                     </div><!-- End Service Item -->
+
 
                     {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item item-pink position-relative">
@@ -650,8 +643,8 @@
                           <div>
                             <h3>Address</h3>
                             <p>Al-Khamisi International</p>
-                            <p>P.O BOX: 123</p>
-                            <p>P.C: 123</p>
+                            <p>P.O BOX: 1341</p>
+                            <p>P.C: 112</p>
                             <p>CR.NO: 1488445</p>
                             <p>Muscat, Sultanate of Oman</p>
                           </div>
@@ -670,6 +663,7 @@
                           <div>
                             <h3>Email Us</h3>
                             <p>info@alkhamisiintl.com</p>
+                            <p>contact@alkhamisiintl.com</p>
                           </div>
                         </div><!-- End Info Item -->
 

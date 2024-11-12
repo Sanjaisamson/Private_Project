@@ -30,9 +30,9 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
+          <li><a href="/construction">Construction</a></li>
             <li><a href="/itsupport">IT Services</a></li>
             <li><a href="/education">Education Services</a></li>
-            <li><a href="/construction">Construction</a></li>
             <li><a href="/foodtrade">Food Trade</a></li>
             <li><a href="/tourism">Tourism</a></li>
             <li><a href="/realestate">Real Estate</a></li>
@@ -41,13 +41,13 @@
   
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>Al-Khamisi International</p>
-          <p>P.O BOX: 123</p>
-          <p>P.C: 123</p>
+          <p>Al-Khamisi International Investments</p>
+          <p>P.O BOX: 1341</p>
+          <p>P.C: 112</p>
           <p>CR.NO: 1488445</p>
           <p>Muscat, Sultanate of Oman</p>
           <p class="mt-4"><strong>Phone:</strong> <span>+968 92165009</span></p>
-          <p><strong>Email:</strong> <span>info@alkhamisiintl.com</span></p>
+          <p><strong>Email:</strong> <span>info@alkhamisiintl.com</span> <span>contact@alkhamisiintl.com</span></p>
         </div>
   
       </div>

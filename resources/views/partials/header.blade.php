@@ -16,9 +16,9 @@
           <li class="dropdown"><a href="/#services"><span><strong>SERVICES</strong></span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/itsupport">IT Services</a></li>
-              <li><a href="/education">Education Services</a></li>
-              <li><a href="/construction">Construction</a></li>
+            <li><a href="/construction">Construction</a></li>
+              <li><a href="/itsupport">IT Services and Management Offices</a></li>
+              <li><a href="/education">Education Services</a></li> 
               <li><a href="/tourism">Tourism</a></li>
               <li><a href="/realestate">Real Estate</a></li>
               <li><a href="/foodtrade">Food Trade</a></li>

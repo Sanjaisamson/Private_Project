@@ -35,13 +35,14 @@
   
                 <a href="#" class="active">IT Support Services:</a>
                 <ul>
-                  <li><i class="bi bi-check-circle"></i> <span>Help Desk Support</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>CCTV System</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Access Control System </span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Fiber Optics System</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Networking Solutions</span></li>
                   <li><i class="bi bi-check-circle"></i> <span>Network Managements</span></li>
                   <li><i class="bi bi-check-circle"></i> <span>Cybersecurity Services</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>Cloud Services</span></li>
                   <li><i class="bi bi-check-circle"></i> <span>Hardware Support</span></li>
                   <li><i class="bi bi-check-circle"></i> <span>Software Support</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>IT Consulting</span></li>
               </ul>
               </div>
           </div>
@@ -52,13 +53,14 @@
               <p class="servicedes">
                 At Al-Khamisi, we offer a comprehensive suite of IT services designed to empower businesses and individuals with cutting-edge technology skills and reliable technical support. Our core services include:</p>
               <ul>   
-              <li><i class="bi bi-check2-all"></i> <span><b>Help Desk Support:</b> Quick resolution of technical issues via phone, email, and live chat, minimizing downtime and keeping operations smooth.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span><b>Network Management:</b> Design, implement, and optimize network infrastructure to ensure reliability, security, and efficient performance.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><b>CCTV System:</b> Our CCTV System services provide reliable installation, maintenance, and monitoring solutions, ensuring enhanced security and real-time surveillance for businesses and homes.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><b>Access Control System:</b> Our Access Control System services offer advanced biometric, card-based, and other secure entry solutions to control and monitor access, enhancing safety and accountability for your premises.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><b>Fiber Optics System:</b> Our Fiber Optics System services deliver high-speed, reliable connectivity solutions through expert installation, maintenance, and optimization of fiber optic networks for seamless data transmission..</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><b>Networking Solutions:</b> Our Networking Solutions services provide comprehensive design, installation, and support for robust, scalable networks, ensuring seamless connectivity and optimized performance for businesses of all sizes.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><b>Networking Managements:</b> Design, implement, and optimize network infrastructure to ensure reliability, security, and efficient performance.</span></li>
               <li><i class="bi bi-check2-all"></i> <span><b>Cybersecurity Services:</b>  Protect your data and systems with advanced solutions against malware, ransomware, and phishing, along with vulnerability assessments and incident response.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span><b>Cloud Services:</b> Our curriculum is regularly updated to reflect the latest technologies and industry trends, keeping you at the forefront of IT innovation.Scalable cloud solutions for migration, deployment, and management to boost efficiency and cut costs.</span></li>
               <li><i class="bi bi-check2-all"></i> <span><b>Hardware Support:</b> Reliable maintenance and repairs for efficient hardware operation.</span></li>
               <li><i class="bi bi-check2-all"></i> <span><b>Software Support:</b> Expert help with software installation, updates, and troubleshooting.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span><b>IT Consulting:</b> Expert help with software installation, updates, and troubleshooting.Strategic advice to optimize IT infrastructure and align with business goals.</span></li>
               </ul>
               <p class="servicedes">
                 Al-Khamisi delivers a comprehensive suite of IT services to empower businesses and individuals with cutting-edge technology skills and dependable support. Our expert team ensures your IT environment remains up-to-date, secure, and efficient. Whether enhancing your IT capabilities or seeking reliable technical support, we are your trusted partner in navigating the IT landscape.

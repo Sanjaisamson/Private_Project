@@ -13,7 +13,7 @@
     <div class="page-title accent-background">
       <div class="page-bg-container">
         <div class="container">
-          <h1 class="servicehead">Construction Services</h1>
+          <h1 class="servicehead">Construction Of Buildings</h1>
           <nav class="breadcrumbs">
           </nav>
         </div>
@@ -30,7 +30,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
 
 
-            <h4>Construction Services: Comprehensive MEP Solutions</h4>
+            <h4>Construction Of Buildings: Comprehensive MEP Solutions</h4>
             <p style="text-align: justify;">At Al-Khamisi, we pride ourselves on delivering exceptional Mechanical,
               Electrical, and Plumbing (MEP) services for a wide range of construction projects. Our team of highly
               skilled professionals brings years of experience and technical expertise to every job, ensuring that your
