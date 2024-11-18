@@ -22,8 +22,8 @@
                     </div>
                 </div>
                 <!-- <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
-                      <a href="#about" class="btn-get-started">Get Started</a>
-                    </div> -->
+                                                        <a href="#about" class="btn-get-started">Get Started</a>
+                                                        </div> -->
 
 
 
@@ -50,88 +50,114 @@
                         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
                             <!-- <h3>Welcome to Al-Khamisi International Investments, where versatility meets excellence.</h3> -->
                             <p class="fst-italic" style="text-align: justify;">
-                            AlKhamisi International Investments is a multifaceted service company committed to delivering exceptional solutions across various industries. 
-                            we manage diverse projects with a focus on quality and precision, ensuring that each development meets the highest standards. 
-                            We have a strong foundation in following Services:
+                                AlKhamisi International Investments is a multifaceted service company committed to
+                                delivering exceptional solutions across various industries.
+                                we manage diverse projects with a focus on quality and precision, ensuring that each
+                                development meets the highest standards.
+                                We have a strong foundation in following Services:
                             </p>
                             <ul>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
                                         class="fst-italic"><strong>Construction of Buildings</strong></span></li>
-                                <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>IT Services</strong></span></li>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span class="fst-italic"><strong>IT
+                                            Services</strong></span></li>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
                                         class="fst-italic"><strong>Management offices</strong></span>
                                 </li>
                             </ul>
                             <p class="fst-italic" style="text-align: justify;">
-                            We are moving to show our excellence in following sectors soon:
+                                We are moving to show our excellence in following sectors soon:
                             </p>
                             <ul>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
                                         class="fst-italic"><strong>Education</strong></span></li>
-                                <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>Real Estate</strong></span></li>
-                                <li class="key"><i class="bi bi-check2-all"></i> <span
-                                        class="fst-italic"><strong>Food Trade</strong></span>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span class="fst-italic"><strong>Real
+                                            Estate</strong></span></li>
+                                <li class="key"><i class="bi bi-check2-all"></i> <span class="fst-italic"><strong>Food
+                                            Trade</strong></span>
                                 </li>
                                 <li class="key"><i class="bi bi-check2-all"></i> <span
                                         class="fst-italic"><strong>Tourism</strong></span>
                                 </li>
                             </ul>
                             <p class="fst-italic" style="text-align: justify;">
-                                At AlKhamisi International Investments SPC, We are Embracing new technologies and trends to stay ahead in the market, Consistently delivering on our promises and ensuring customer satisfaction across all sectors and Pushing boundaries to achieve outstanding results in every project and service we undertake. 
+                                At AlKhamisi International Investments SPC, We are Embracing new technologies and trends to
+                                stay ahead in the market, Consistently delivering on our promises and ensuring customer
+                                satisfaction across all sectors and Pushing boundaries to achieve outstanding results in
+                                every project and service we undertake.
+                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
-
         </section><!-- /About Section -->
 
-        <!-- Stats Section -->
-        <section id="stats" class="stats section light-background">
+        <!-- Banner Slider Section -->
+        <section id="banner-slider" class="banner-slider section">
+            {{-- <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Our Banner</h2>
+                <p>Check out our amazing offerings</p>
+            </div><!-- End Section Title --> --}}
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper init-swiper" data-speed="600" data-delay="5000"
+                    data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 20 }, &quot;768&quot;: { &quot;slidesPerView&quot;: 2, &quot;spaceBetween&quot;: 20 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 20 } }">
+                    <script type="application/json" class="swiper-config">
+            {
+                "loop": true,
+                "speed": 500,
+                "autoplay": {
+                    "delay": 3000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                },
+                "breakpoints": {
+                    "320": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 20
+                    },
+                    "768": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 20
+                    },
+                    "1200": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 20
+                    }
+                }
+            }
+            </script>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/banner1.jpg" class="banner-img" alt="Banner Image 1">
+                        </div><!-- End Banner Item -->
 
-                <div class="row gy-4">
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/banner2.jpg" class="banner-img" alt="Banner Image 2">
+                        </div><!-- End Banner Item -->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Clients</p>
-                        </div>
-                    </div><!-- End Stats Item -->
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/banner3.jpg" class="banner-img" alt="Banner Image 3">
+                        </div><!-- End Banner Item -->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Projects</p>
-                        </div>
-                    </div><!-- End Stats Item -->
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/banner4.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Workers</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
+                        {{-- <div class="swiper-slide">
+                            <img src="assets/img/banner/banner5.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item --> --}}
+                    </div>
+                    {{-- <div class="swiper-pagination"></div> --}}
                 </div>
-
             </div>
-
-        </section><!-- /Stats Section -->
+        </section><!-- /Banner Slider Section -->
 
 
         <!-- Services Section -->
@@ -147,7 +173,7 @@
 
                 <div class="row gy-4">
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item item-teal position-relative">
                             <div class="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600"
@@ -173,7 +199,8 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item item-cyan position-relative">
                             <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="100" height="100" viewBox="0 0 600 600"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path stroke="none" stroke-width="0" fill="#f5f5f5"
                                         d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
                                     </path>
@@ -215,30 +242,30 @@
                             <a href="/education" class="stretched-link"></a>
                         </div>
                     </div><!-- End Service Item -->
-                    
+
 
                     {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
-                  </path>
-                </svg>
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Industial Support</h3>
-              </a>
-              <p class="servicedes">We provide comprehensive industrial support services that cater to the unique needs
-                of various sectors.
-                From equipment maintenance and supply chain management to workforce training and operational consulting,
-                our solutions are designed to enhance efficiency, productivity, and safety in industrial operations.
-                We are committed to delivering reliable and effective support that helps industries thrive and meet
-                their operational goals.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item --> --}}
+<div class="service-item item-red position-relative">
+<div class="icon">
+<svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" stroke-width="0" fill="#f5f5f5"
+d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
+</path>
+</svg>
+<i class="bi bi-bounding-box-circles"></i>
+</div>
+<a href="service-details.html" class="stretched-link">
+<h3>Industial Support</h3>
+</a>
+<p class="servicedes">We provide comprehensive industrial support services that cater to the unique needs
+of various sectors.
+From equipment maintenance and supply chain management to workforce training and operational consulting,
+our solutions are designed to enhance efficiency, productivity, and safety in industrial operations.
+We are committed to delivering reliable and effective support that helps industries thrive and meet
+their operational goals.</p>
+<a href="service-details.html" class="stretched-link"></a>
+</div>
+</div><!-- End Service Item --> --}}
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <div class="service-item item-indigo position-relative">
@@ -312,69 +339,69 @@
 
 
                     {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-pink position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
-                  </path>
-                </svg>
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Administrative Services</h3>
-              </a>
-              <p class="servicedes">Our Administrative Services are tailored to streamline business operations, offering
-                support in areas such as office management,
-                human resources, and compliance. We help organizations improve efficiency, maintain smooth workflows,
-                and focus on their core activities by managing
-                their administrative needs effectively.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
+<div class="service-item item-pink position-relative">
+<div class="icon">
+<svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" stroke-width="0" fill="#f5f5f5"
+d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+</path>
+</svg>
+<i class="bi bi-chat-square-text"></i>
+</div>
+<a href="service-details.html" class="stretched-link">
+<h3>Administrative Services</h3>
+</a>
+<p class="servicedes">Our Administrative Services are tailored to streamline business operations, offering
+support in areas such as office management,
+human resources, and compliance. We help organizations improve efficiency, maintain smooth workflows,
+and focus on their core activities by managing
+their administrative needs effectively.</p>
+<a href="service-details.html" class="stretched-link"></a>
+</div>
+</div><!-- End Service Item -->
 
-        </div>
+</div>
 
-      </div>
+</div>
 
-    </section><!-- /Services Section --> --}}
+</section><!-- /Services Section --> --}}
 
 
                     <!-- Clients Section -->
                     <!-- <section id="clients" class="clients section light-background">
 
-                  <div class="container" data-aos="fade-up">
+                                                        <div class="container" data-aos="fade-up">
 
-                    <div class="row gy-4">
+                                                        <div class="row gy-4">
 
-                      <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                                                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                     <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                     <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                     <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                     <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                     <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                      </div> -->
+                                                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                                                        </div> -->
                     <!-- End Client Item -->
 
                 </div>
@@ -385,447 +412,380 @@
 
         <!-- /Clients Section -->
 
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section">
+
+        <!-- Call To Action Section -->
+        <!-- <section id="call-to-action" class="call-to-action section accent-background">
+
+                                                        <div class="container">
+                                                        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                                                        <div class="col-xl-10">
+                                                        <div class="text-center">
+                                                        <h3>Call To Action</h3>
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <a class="cta-btn" href="#">Call To Action</a>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+
+                                                        </section>/Call To Action Section -->
+
+        <!-- Portfolio Section -->
+
+
+        <!-- /Portfolio Section -->
+
+        <!-- Team Section -->
+        <section id="resources" class="team section light-background">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Testimonials</h2>
-                <p>Here our happy clients share their wonderful experiences</p>
+                <h2>Resources</h2>
+                {{-- <p>This is our young, enthusiastic, energetic team</p> --}}
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="swiper init-swiper" data-speed="600" data-delay="5000"
-                    data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+                    data-breakpoints='{"320": {"slidesPerView": 1, "spaceBetween": 20}, "768": {"slidesPerView": 2, "spaceBetween": 20}, "1200": {"slidesPerView": 3, "spaceBetween": 20}}'>
                     <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
+{
+"loop": true,
+"speed": 600,
+"autoplay": {
+"delay": 5000
+},
+"slidesPerView": "auto",
+"pagination": {
+"el": ".swiper-pagination",
+"type": "bullets",
+"clickable": true
+},
+"breakpoints": {
+"320": {
+"slidesPerView": 1,
+"spaceBetween": 20
+},
+"768": {
+"slidesPerView": 2,
+"spaceBetween": 20
+},
+"1200": {
+"slidesPerView": 3,
+"spaceBetween": 20
+}
+}
+}
+</script>
                     <div class="swiper-wrapper">
-
+                        <!-- Slide Item -->
                         <div class="swiper-slide">
-                            <div class="testimonial-item" "="">
-                        <p>
-                          <i class=" bi bi-quote quote-icon-left"></i>
-                            <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                              Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                            <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
-                          </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <p>
-                              <i class="bi bi-quote quote-icon-left"></i>
-                              <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum
-                                velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                              <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
-                          </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <p>
-                              <i class="bi bi-quote quote-icon-left"></i>
-                              <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                                minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                              <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
-                          </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <p>
-                              <i class="bi bi-quote quote-icon-left"></i>
-                              <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim
-                                duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                              <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
-                          </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <p>
-                              <i class="bi bi-quote quote-icon-left"></i>
-                              <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt
-                                culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                              <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
-                          </div>
-                        </div><!-- End testimonial item -->
-
-                      </div>
-                      <div class="swiper-pagination"></div>
-                    </div>
-
-                  </div>
-
-                </section><!-- /Testimonials Section -->
-
-
-
-                <!-- Call To Action Section -->
-                <!-- <section id="call-to-action" class="call-to-action section accent-background">
-
-                  <div class="container">
-                    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-                      <div class="col-xl-10">
-                        <div class="text-center">
-                          <h3>Call To Action</h3>
-                          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          <a class="cta-btn" href="#">Call To Action</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </section>/Call To Action Section -->
-
-                <!-- Portfolio Section -->
-
-
-                <!-- /Portfolio Section -->
-
-                <!-- Team Section -->
-                <section id="team" class="team section light-background">
-
-                  <!-- Section Title -->
-                  <div class="container section-title" data-aos="fade-up">
-                    <h2>Team</h2>
-                    <p>This is our young, enthusiastic, energetic team</p>
-                  </div><!-- End Section Title -->
-
-                  <div class="container">
-
-                    <div class="row gy-4">
-
-                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                          <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                              <a href=""><i class="bi bi-twitter-x"></i></a>
-                              <a href=""><i class="bi bi-facebook"></i></a>
-                              <a href=""><i class="bi bi-instagram"></i></a>
-                              <a href=""><i class="bi bi-linkedin"></i></a>
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/feasibility.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>Cost / Feasibility Analysis</strong></h5>
+                                <p style="text-align: justify;"> A feasibility study looks at the viability of a
+                                    project with an emphasis on identifying potential problems. An analysis and evaluation
+                                    of the proposed
+                                    project is done to determine if it is technically feasible and cost-effective. The
+                                    companies which manufacture the requisite products are identified and negotiations
+                                    are carried out to procure them at a competitive price.</p>
                             </div>
-                          </div>
-                          <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                          </div>
-                        </div>
-                      </div><!-- End Team Member -->
+                        </div><!-- End testimonial item -->
 
-                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="team-member">
-                          <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                              <a href=""><i class="bi bi-twitter-x"></i></a>
-                              <a href=""><i class="bi bi-facebook"></i></a>
-                              <a href=""><i class="bi bi-instagram"></i></a>
-                              <a href=""><i class="bi bi-linkedin"></i></a>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/engineering.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>Engineering Design</strong></h5>
+                                <p style="text-align: justify;"> Engineering Design involves creating and
+                                    delivering innovative, useful, reliable and technical solutions to meet project
+                                    requirements. The engineering design process is a methodical series of steps.
+                                    The overall system configuration is defined, and schematics, diagrams, and
+                                    layouts provide tangible information about the project.</p>
                             </div>
-                          </div>
-                          <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                          </div>
-                        </div>
-                      </div><!-- End Team Member -->
+                        </div><!-- End testimonial item -->
 
-                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="team-member">
-                          <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                              <a href=""><i class="bi bi-twitter-x"></i></a>
-                              <a href=""><i class="bi bi-facebook"></i></a>
-                              <a href=""><i class="bi bi-instagram"></i></a>
-                              <a href=""><i class="bi bi-linkedin"></i></a>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/installation.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>Installation Services</strong></h5>
+                                <p style="text-align: justify;"> Installation is carried out by our team of
+                                    experienced Engineers and technicians who are well trained to perform the job
+                                    accurately, as per the project specifications. We ensure timely completion of
+                                    the project while adhering to industry standards HSE Standards and ensuring
+                                    high-quality workmanship.</p>
                             </div>
-                          </div>
-                          <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                          </div>
-                        </div>
-                      </div><!-- End Team Member -->
+                        </div><!-- End testimonial item -->
 
-                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                        <div class="team-member">
-                          <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                              <a href=""><i class="bi bi-twitter-x"></i></a>
-                              <a href=""><i class="bi bi-facebook"></i></a>
-                              <a href=""><i class="bi bi-instagram"></i></a>
-                              <a href=""><i class="bi bi-linkedin"></i></a>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/testing.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>Testing and Commissioning</strong></h5>
+                                <p style="text-align: justify;"> Testing and commissioning is done by our engineers
+                                    who are experts in the field with the support of specialists from the respective
+                                    Principal Companies from where the products are procured.</p>
                             </div>
-                          </div>
-                          <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                          </div>
-                        </div>
-                      </div><!-- End Team Member -->
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/documentation.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>As Built Documentation</strong></h5>
+                                <p style="text-align: justify;"> As Built documentation serves as an important
+                                    hands-on reference for the customer. It gives complete and accurate details of
+                                    all the facets of the project. The As-built drawings and documents are done by
+                                    our CAD Engineers with absolute precision.</p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/resources/customersupport.jpg" class="testimonial-img"
+                                    style="height: 500px; width: 100%; object-fit: cover;" alt="">
+                                <h5 style="margin-top:10px;"><strong>Warranty Support / AMC</strong></h5>
+                                <p style="text-align: justify;"> At ORB, we believe that our role does not end with
+                                    execution and commissioning of the project. We understand the importance of
+                                    Warranty Support and attend promptly to any support issues. We also take up
+                                    Annual maintenance of our projects, if so required, to give you trouble-free
+                                    operation at all times.</p>
+                            </div>
+                        </div><!-- End testimonial item -->
 
                     </div>
+                    <br>
+                    <div class="swiper-pagination"></div>
+                </div>
 
-                  </div>
+            </div>
 
-                </section><!-- /Team Section -->
+        </section><!-- /Team Section -->
 
-                <!-- Contact Section -->
-                <section id="contact" class="contact section">
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
 
-                  <!-- Section Title -->
-                  <div class="container section-title" data-aos="fade-up">
-                    <h2>Need Help? Feel free to ask</h2>
-                    <p>You can share your Queries Here. We are eagerly waiting to here from you.</p>
-                  </div><!-- End Section Title -->
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Need Help? Feel free to ask</h2>
+                <p>You can share your queries here. We are eagerly waiting to hear from you.</p>
+            </div><!-- End Section Title -->
 
-                  <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-                      <iframe style="border:0; width: 100%; height: 270px;"
+                <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <iframe style="border:0; width: 100%; height: 270px;"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234022.5205532338!2d58.25970410550102!3d23.58273783580163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ffa8879aafc9%3A0xdb53876d0d79a72c!2sMuscat%2C%20Oman!5e0!3m2!1sen!2sin!4v1724998523592!5m2!1sen!2sin"
-                        frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div><!-- End Google Maps -->
+                        frameborder="0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div><!-- End Google Maps -->
 
-                    <div class="row gy-4">
+                <div class="row gy-4">
 
-                      <div class="col-lg-4">
+                    <div class="col-lg-4">
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                          <i class="bi bi-geo-alt flex-shrink-0"></i>
-                          <div>
-                            <h3>Address</h3>
-                            <p>Al-Khamisi International</p>
-                            <p>P.O BOX: 1341</p>
-                            <p>P.C: 112</p>
-                            <p>CR.NO: 1488445</p>
-                            <p>Muscat, Sultanate of Oman</p>
-                          </div>
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Al-Khamisi International</p>
+                                <p>P.O BOX: 1341</p>
+                                <p>P.C: 112</p>
+                                <p>CR.NO: 1488445</p>
+                                <p>Muscat, Sultanate of Oman</p>
+                            </div>
                         </div><!-- End Info Item -->
 
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                          <i class="bi bi-telephone flex-shrink-0"></i>
-                          <div>
-                            <h3>Call Us</h3>
-                            <p>+968 92165009</p>
-                          </div>
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+968 92165009</p>
+                            </div>
                         </div><!-- End Info Item -->
 
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                          <i class="bi bi-envelope flex-shrink-0"></i>
-                          <div>
-                            <h3>Email Us</h3>
-                            <p>info@alkhamisiintl.com</p>
-                            <p>contact@alkhamisiintl.com</p>
-                          </div>
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>info@alkhamisiintl.com</p>
+                                <p>contact@alkhamisiintl.com</p>
+                            </div>
                         </div><!-- End Info Item -->
 
-                      </div>
-
-            <!-- Form Validaation-->
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    const form = document.querySelector('form');
-                    if (form) {
-                        form.addEventListener('submit', function(event) {
-                            const name = document.getElementById('name-field').value;
-                            const email = document.getElementById('email-field').value;
-                            const subject = document.getElementById('subject-field').value;
-                            const message = document.getElementById('message-field').value;
-
-                            // Name validation
-                            const nameRegex = /^[A-Za-z\s]{2,}$/;
-                            if (!nameRegex.test(name)) {
-                                alert(
-                                    'Name must be at least 2 characters long and contain only letters and spaces.'
-                                );
-                                event.preventDefault(); // Prevent form submission
-                                return;
-                            }
-
-                            // Email validation (additional check)
-                            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                            if (!emailRegex.test(email)) {
-                                alert('Please enter a valid email address.');
-                                event.preventDefault(); // Prevent form submission
-                                return;
-                            }
-
-                            // Subject validation
-                            if (subject.trim() === '') {
-                                alert('Subject is required.');
-                                event.preventDefault(); // Prevent form submission
-                                return;
-                            }
-
-                            // Message validation
-                            if (message.trim() === '') {
-                                alert('Message is required.');
-                                event.preventDefault(); // Prevent form submission
-                                return;
-                            }
-                        });
-                    }
-                });
-            </script>
-
-<div class="col-lg-8">
-  <form id="contact-form" action="{{ route('contact.submit') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-      @csrf
-      <div class="row gy-4">
-          <div class="col-md-6">
-              <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name" pattern="[A-Za-z\s]{2,}" title="Name must be at least 2 characters long and contain only letters and spaces." required="">
-          </div>
-          <div class="col-md-6">
-              <input type="email" class="form-control" id="email-field" name="email" placeholder="Your Email" required="">
-          </div>
-          <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Subject" required="">
-          </div>
-          <div class="col-md-12">
-              <textarea class="form-control" name="message" id="message-field" rows="6" placeholder="Message" required=""></textarea>
-          </div>
-          <div class="col-md-12 text-center">
-              <div class="loading" style="display: none;">Loading</div>
-              <div class="error-message" id="error-message" style="display: none; background: red;color:white"></div>
-              <div class="sent-message" id="success-message" style="display: none; background: green;color:white"></div>
-              <button type="submit">Send Message</button>
-          </div>
-      </div>
-  </form>
-</div><!-- End Contact Form -->
-
-<script>
-(function () {
-  "use strict";
-
-  let form = document.getElementById('contact-form');
-
-  form.addEventListener('submit', function (event) {
-      event.preventDefault(); // Prevent default form submission
-
-      let action = form.getAttribute('action');
-      if (!action) {
-          displayError(form, 'The form action property is not set!');
-          return;
-      }
-
-      form.querySelector('.loading').classList.add('d-block');
-      form.querySelector('.error-message').classList.remove('d-block');
-      form.querySelector('.sent-message').classList.remove('d-block');
-
-      let formData = new FormData(form);
-      let recaptcha = form.getAttribute('data-recaptcha-site-key');
-
-      if (recaptcha) {
-          if (typeof grecaptcha !== "undefined") {
-              grecaptcha.ready(function () {
-                  grecaptcha.execute(recaptcha, { action: 'php_email_form_submit' })
-                      .then(token => {
-                          formData.set('recaptcha-response', token);
-                          submitForm(form, action, formData);
-                      })
-                      .catch(error => {
-                          displayError(form, error);
-                      });
-              });
-          } else {
-              displayError(form, 'The reCaptcha javascript API url is not loaded!');
-          }
-      } else {
-          submitForm(form, action, formData);
-      }
-  });
-
-  function submitForm(form, action, formData) {
-      fetch(action, {
-          method: 'POST',
-          body: formData,
-          headers: { 'X-Requested-With': 'XMLHttpRequest' }
-      })
-      .then(response => {
-          if (response.ok) {
-              return response.json(); // Expecting JSON response
-          } else {
-              throw new Error(`${response.status} ${response.statusText}`);
-          }
-      })
-      .then(data => {
-          form.querySelector('.loading').classList.remove('d-block');
-          if (data.status === 'success') {
-              form.querySelector('.sent-message').textContent = data.message;
-              form.querySelector('.sent-message').classList.add('d-block');
-              form.reset(); // Clear the form
-          } else {
-              throw new Error(data.message || 'Form submission failed without an error message.');
-          }
-      })
-      .catch(error => {
-          displayError(form, error.message);
-      });
-  }
-
-  function displayError(form, message) {
-      form.querySelector('.loading').classList.remove('d-block');
-      form.querySelector('.error-message').textContent = message;
-      form.querySelector('.error-message').classList.add('d-block');
-  }
-
-})();
-</script>
                     </div>
 
-                  </div>
+                    <!-- Form Validaation-->
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const form = document.querySelector('form');
+                            if (form) {
+                                form.addEventListener('submit', function(event) {
+                                    const name = document.getElementById('name-field').value;
+                                    const email = document.getElementById('email-field').value;
+                                    const subject = document.getElementById('subject-field').value;
+                                    const message = document.getElementById('message-field').value;
 
-                </section><!-- /Contact Section -->
+                                    // Name validation
+                                    const nameRegex = /^[A-Za-z\s]{2,}$/;
+                                    if (!nameRegex.test(name)) {
+                                        alert(
+                                            'Name must be at least 2 characters long and contain only letters and spaces.'
+                                        );
+                                        event.preventDefault(); // Prevent form submission
+                                        return;
+                                    }
 
-              </main>
+                                    // Email validation (additional check)
+                                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                                    if (!emailRegex.test(email)) {
+                                        alert('Please enter a valid email address.');
+                                        event.preventDefault(); // Prevent form submission
+                                        return;
+                                    }
+
+                                    // Subject validation
+                                    if (subject.trim() === '') {
+                                        alert('Subject is required.');
+                                        event.preventDefault(); // Prevent form submission
+                                        return;
+                                    }
+
+                                    // Message validation
+                                    if (message.trim() === '') {
+                                        alert('Message is required.');
+                                        event.preventDefault(); // Prevent form submission
+                                        return;
+                                    }
+                                });
+                            }
+                        });
+                    </script>
+
+                    <div class="col-lg-8">
+                        <form id="contact-form" action="{{ route('contact.submit') }}" method="post"
+                            class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            @csrf
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name-field" class="form-control"
+                                        placeholder="Your Name" pattern="[A-Za-z\s]{2,}"
+                                        title="Name must be at least 2 characters long and contain only letters and spaces."
+                                        required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="email-field" name="email"
+                                        placeholder="Your Email" required="">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" id="subject-field"
+                                        placeholder="Subject" required="">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" id="message-field" rows="6" placeholder="Message"
+                                        required=""></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="loading" style="display: none;">Loading</div>
+                                    <div class="error-message" id="error-message"
+                                        style="display: none; background: red;color:white"></div>
+                                    <div class="sent-message" id="success-message"
+                                        style="display: none; background: green;color:white"></div>
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                    <script>
+                        (function() {
+                            "use strict";
+
+                            let form = document.getElementById('contact-form');
+
+                            form.addEventListener('submit', function(event) {
+                                event.preventDefault(); // Prevent default form submission
+
+                                let action = form.getAttribute('action');
+                                if (!action) {
+                                    displayError(form, 'The form action property is not set!');
+                                    return;
+                                }
+
+                                form.querySelector('.loading').classList.add('d-block');
+                                form.querySelector('.error-message').classList.remove('d-block');
+                                form.querySelector('.sent-message').classList.remove('d-block');
+
+                                let formData = new FormData(form);
+                                let recaptcha = form.getAttribute('data-recaptcha-site-key');
+
+                                if (recaptcha) {
+                                    if (typeof grecaptcha !== "undefined") {
+                                        grecaptcha.ready(function() {
+                                            grecaptcha.execute(recaptcha, {
+                                                    action: 'php_email_form_submit'
+                                                })
+                                                .then(token => {
+                                                    formData.set('recaptcha-response', token);
+                                                    submitForm(form, action, formData);
+                                                })
+                                                .catch(error => {
+                                                    displayError(form, error);
+                                                });
+                                        });
+                                    } else {
+                                        displayError(form, 'The reCaptcha javascript API url is not loaded!');
+                                    }
+                                } else {
+                                    submitForm(form, action, formData);
+                                }
+                            });
+
+                            function submitForm(form, action, formData) {
+                                fetch(action, {
+                                        method: 'POST',
+                                        body: formData,
+                                        headers: {
+                                            'X-Requested-With': 'XMLHttpRequest'
+                                        }
+                                    })
+                                    .then(response => {
+                                        if (response.ok) {
+                                            return response.json(); // Expecting JSON response
+                                        } else {
+                                            throw new Error(`${response.status} ${response.statusText}`);
+                                        }
+                                    })
+                                    .then(data => {
+                                        form.querySelector('.loading').classList.remove('d-block');
+                                        if (data.status === 'success') {
+                                            form.querySelector('.sent-message').textContent = data.message;
+                                            form.querySelector('.sent-message').classList.add('d-block');
+                                            form.reset(); // Clear the form
+                                        } else {
+                                            throw new Error(data.message || 'Form submission failed without an error message.');
+                                        }
+                                    })
+                                    .catch(error => {
+                                        displayError(form, error.message);
+                                    });
+                            }
+
+                            function displayError(form, message) {
+                                form.querySelector('.loading').classList.remove('d-block');
+                                form.querySelector('.error-message').textContent = message;
+                                form.querySelector('.error-message').classList.add('d-block');
+                            }
+
+                        })();
+                    </script>
+                </div>
+
+            </div>
+
+        </section><!-- /Contact Section -->
+
+    </main>
 
 @endsection

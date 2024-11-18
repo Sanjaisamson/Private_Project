@@ -1,34 +1,44 @@
-
-
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #124265; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #2487ce; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #444444;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #124265;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #2487ce;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #124265;  /* The default color of the main navmenu links */
-  --nav-hover-color: #2487ce; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #124265; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #2487ce; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #124265;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #2487ce;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #124265;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #2487ce;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -735,8 +745,9 @@ h6 {
   /* background-image: url("../img/servicebanner.png"); */
   /* background-color: var(--background-color); */
   background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    background-size: cover;
+  background-position: center;
+  /* Center the image */
+  background-size: cover;
   padding: 120px 0;
   text-align: center;
   position: relative;
@@ -757,7 +768,7 @@ h6 {
   font-size: 42px;
   font-weight: 900;
   margin-bottom: 10px;
-  text-shadow: 
+  text-shadow:
     -1px -1px 0 #fff,
     2px -1px 0 #ffffffb8,
     -1px 2px 0 #ffffffb8,
@@ -773,7 +784,7 @@ h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 300;
-  text-shadow: 
+  text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -2062,18 +2073,18 @@ section,
 --------------------------------------------------------------*/
 
 /* Key points (aboutus) */
-.key{
-text-align: justify;
+.key {
+  text-align: justify;
 }
 
 /* Services description home page */
-.servicedes{
+.servicedes {
   text-align: justify;
   font-size: large;
 }
 
 /* Services heading */
-.servicehead{
+.servicehead {
   color: #0d5183;
 }
 
@@ -2082,20 +2093,25 @@ text-align: justify;
 #career-details .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px; /* Space between columns */
+  gap: 30px;
+  /* Space between columns */
 }
 
 .apply-form {
-  background-color: #f9f9f9; /* Light background for form */
+  background-color: #f9f9f9;
+  /* Light background for form */
   padding: 20px;
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
 }
 
 .apply-form h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #333; /* Dark color for the header */
+  color: #333;
+  /* Dark color for the header */
 }
 
 .apply-form .form-group {
@@ -2104,7 +2120,8 @@ text-align: justify;
 
 .apply-form .form-group label {
   font-weight: bold;
-  color: #555; /* Slightly darker color for labels */
+  color: #555;
+  /* Slightly darker color for labels */
   display: block;
   margin-bottom: 5px;
 }
@@ -2113,33 +2130,65 @@ text-align: justify;
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 4px; /* Rounded corners for inputs */
+  border-radius: 4px;
+  /* Rounded corners for inputs */
   font-size: 16px;
 }
 
 .apply-form .form-control:focus {
-  border-color: #007bff; /* Blue border on focus */
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Subtle blue shadow on focus */
-  outline: none; /* Remove default outline */
+  border-color: #007bff;
+  /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  /* Subtle blue shadow on focus */
+  outline: none;
+  /* Remove default outline */
 }
 
 .apply-form .btn-primary {
-  background-color: #007bff; /* Primary button color */
+  background-color: #007bff;
+  /* Primary button color */
   border: none;
   padding: 10px 20px;
-  border-radius: 4px; /* Rounded corners for button */
-  color: #fff; /* White text */
+  border-radius: 4px;
+  /* Rounded corners for button */
+  color: #fff;
+  /* White text */
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  /* Smooth transitions */
 }
 
 .apply-form .btn-primary:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: translateY(-2px); /* Slight lift effect on hover */
+  background-color: #0056b3;
+  /* Darker blue on hover */
+  transform: translateY(-2px);
+  /* Slight lift effect on hover */
 }
 
 .apply-form .btn-primary:active {
-  background-color: #004085; /* Even darker blue on active */
-  transform: translateY(0); /* Remove lift effect on click */
+  background-color: #004085;
+  /* Even darker blue on active */
+  transform: translateY(0);
+  /* Remove lift effect on click */
+}
+
+
+.banner-slider {
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  /* Make images responsive */
+  height: 300px;
+  /* Maintain aspect ratio */
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .banner-slider .swiper-slide {
+    /* Adjust slide height for smaller screens if needed */
+    height: auto;
+  }
 }
