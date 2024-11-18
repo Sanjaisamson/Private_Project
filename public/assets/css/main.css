@@ -2181,7 +2181,7 @@ section,
 .banner-img {
   width: 100%;
   /* Make images responsive */
-  height: 300px;
+  height: 450px;
   /* Maintain aspect ratio */
   display: block;
 }
