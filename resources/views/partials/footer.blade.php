@@ -48,13 +48,14 @@
                 <p>P.C: 112</p>
                 <p>CR.NO: 1488445</p>
                 <p>Muscat, Sultanate of Oman</p>
-                <p class="mt-4"><strong>Phone:</strong> <span>+968 92165009</span></p>
+                {{-- <p class="mt-4"><strong>Phone:</strong> <span>+968 92165009</span></p> --}}
                 <p>
-                    <strong>Email:</strong>
+                    <strong>Email-1:</strong>
                     <span><a href="mailto:info@alkhamisiintl.com"
                             style="color: #444444">info@alkhamisiintl.com</a></span>
                 </p>
-                <span style="margin-left: 20%;"><a href="mailto:contact@alkhamisiintl.com"
+                <strong>Email-2:</strong>
+                <span><a href="mailto:contact@alkhamisiintl.com"
                         style="color: #444444">contact@alkhamisiintl.com</a></span>
                 </p>
             </div>

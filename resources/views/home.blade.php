@@ -134,9 +134,9 @@
             }
             </script>
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        {{-- <div class="swiper-slide">
                             <img src="assets/img/banner/banner1.jpg" class="banner-img" alt="Banner Image 1">
-                        </div><!-- End Banner Item -->
+                        </div><!-- End Banner Item --> --}}
 
                         <div class="swiper-slide">
                             <img src="assets/img/banner/banner2.jpg" class="banner-img" alt="Banner Image 2">
@@ -150,9 +150,21 @@
                             <img src="assets/img/banner/banner4.jpg" class="banner-img" alt="Banner Image 4">
                         </div><!-- End Banner Item -->
 
-                        {{-- <div class="swiper-slide">
-                            <img src="assets/img/banner/banner5.jpg" class="banner-img" alt="Banner Image 5">
-                        </div><!-- End Banner Item --> --}}
+                        <div class="swiper-slide">
+                          <img src="assets/img/banner/banner5.jpg" class="banner-img" alt="Banner Image 4">
+                      </div><!-- End Banner Item -->
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/banner/banner6.jpg" class="banner-img" alt="Banner Image 4">
+                    </div><!-- End Banner Item -->
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/banner/banner7.jpg" class="banner-img" alt="Banner Image 4">
+                  </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/banner8.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
                     </div>
                     {{-- <div class="swiper-pagination"></div> --}}
                 </div>
@@ -597,13 +609,13 @@ their administrative needs effectively.</p>
                             </div>
                         </div><!-- End Info Item -->
 
-                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                        {{-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
                                 <p>+968 92165009</p>
                             </div>
-                        </div><!-- End Info Item -->
+                        </div><!-- End Info Item --> --}}
 
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                             <i class="bi bi-envelope flex-shrink-0"></i>
