@@ -103,72 +103,108 @@
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper init-swiper" data-speed="600" data-delay="5000"
-                    data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 20 }, &quot;768&quot;: { &quot;slidesPerView&quot;: 2, &quot;spaceBetween&quot;: 20 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 20 } }">
+                    data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;768&quot;: { &quot;slidesPerView&quot;: 2, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }" style="background-color: #F2F9FF ">
                     <script type="application/json" class="swiper-config">
-            {
-                "loop": true,
-                "speed": 500,
-                "autoplay": {
-                    "delay": 3000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                },
-                "breakpoints": {
-                    "320": {
-                        "slidesPerView": 1,
-                        "spaceBetween": 20
-                    },
-                    "768": {
-                        "slidesPerView": 1,
-                        "spaceBetween": 20
-                    },
-                    "1200": {
-                        "slidesPerView": 1,
-                        "spaceBetween": 20
-                    }
-                }
-            }
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                            "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                            },
+                            "breakpoints": {
+                            "320": {
+                            "slidesPerView": 1,
+                            "spaceBetween": 40
+                            },
+                            "768": {
+                            "slidesPerView": 2,
+                            "spaceBetween": 40
+                            },
+                            "1200": {
+                            "slidesPerView": 3,
+                            "spaceBetween": 40
+                            }
+                            }
+                            }
             </script>
-                    <div class="swiper-wrapper">
-                        {{-- <div class="swiper-slide">
-                            <img src="assets/img/banner/banner1.jpg" class="banner-img" alt="Banner Image 1">
-                        </div><!-- End Banner Item --> --}}
-
+                    <div class="swiper-wrapper"  >
+                        
                         <div class="swiper-slide">
-                            <img src="assets/img/banner/banner2.jpg" class="banner-img" alt="Banner Image 2">
+                            <img src="assets/img/banner/New_Banner_img_1.jpg" class="banner-img" alt="Banner Image 2">
                         </div><!-- End Banner Item -->
 
                         <div class="swiper-slide">
-                            <img src="assets/img/banner/banner3.jpg" class="banner-img" alt="Banner Image 3">
+                            <img src="assets/img/banner/New_Banner_img_11.jpg" class="banner-img" alt="Banner Image 4">
                         </div><!-- End Banner Item -->
 
                         <div class="swiper-slide">
-                            <img src="assets/img/banner/banner4.jpg" class="banner-img" alt="Banner Image 4">
+                            <img src="assets/img/banner/New_Banner_img_14.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
+                       
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_12.jpg" class="banner-img" alt="Banner Image 3">
                         </div><!-- End Banner Item -->
 
                         <div class="swiper-slide">
-                          <img src="assets/img/banner/banner5.jpg" class="banner-img" alt="Banner Image 4">
-                      </div><!-- End Banner Item -->
-
-                      <div class="swiper-slide">
-                        <img src="assets/img/banner/banner6.jpg" class="banner-img" alt="Banner Image 4">
-                    </div><!-- End Banner Item -->
-
-                    <div class="swiper-slide">
-                      <img src="assets/img/banner/banner7.jpg" class="banner-img" alt="Banner Image 4">
-                  </div><!-- End Banner Item -->
+                            <img src="assets/img/banner/New_Banner_img_ACS_2.avif" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
 
                         <div class="swiper-slide">
-                            <img src="assets/img/banner/banner8.jpg" class="banner-img" alt="Banner Image 5">
+                            <img src="assets/img/banner/New_Banner_img_13.jpg" class="banner-img" alt="Banner Image 4">
                         </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_2.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_6.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_16.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                          <img src="assets/img/banner/New_Banner_img_3.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                        <img src="assets/img/banner/New_Banner_img_10.jpg" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_4.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_7.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_9.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_15.jpg" class="banner-img" alt="Banner Image 5">
+                        </div><!-- End Banner Item -->
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/banner/New_Banner_img_ACS.avif" class="banner-img" alt="Banner Image 4">
+                        </div><!-- End Banner Item -->
+
                     </div>
                     {{-- <div class="swiper-pagination"></div> --}}
                 </div>
             </div>
+            
         </section><!-- /Banner Slider Section -->
 
 
@@ -559,7 +595,7 @@ their administrative needs effectively.</p>
                                 <img src="assets/img/resources/customersupport.jpg" class="testimonial-img"
                                     style="height: 500px; width: 100%; object-fit: cover;" alt="">
                                 <h5 style="margin-top:10px;"><strong>Warranty Support / AMC</strong></h5>
-                                <p style="text-align: justify;"> At ORB, we believe that our role does not end with
+                                <p style="text-align: justify;">we believe that our role does not end with
                                     execution and commissioning of the project. We understand the importance of
                                     Warranty Support and attend promptly to any support issues. We also take up
                                     Annual maintenance of our projects, if so required, to give you trouble-free

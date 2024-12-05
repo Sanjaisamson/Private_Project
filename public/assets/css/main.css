@@ -2175,13 +2175,17 @@ section,
 
 
 .banner-slider {
+  display: flex;
+  justify-content: space-between;
   overflow: hidden;
 }
 
 .banner-img {
-  width: 100%;
+  /* width: 100%; */
   /* Make images responsive */
-  height: 450px;
+  height: 400px;
+  width: 400px;
+
   /* Maintain aspect ratio */
   display: block;
 }
